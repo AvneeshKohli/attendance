@@ -11,12 +11,22 @@ function showUserInfo() {
     const displayWrapper = document.getElementById('userInfo');
     displayWrapper.style.display = 'block';
     displayWrapper.innerHTML += `
-    <h2>Name:</h2>
-        <h4>${records.currentUserData.name}</h4>
-        <h2>Date of Birth:</h2>
-        <h4>${records.currentUserData.dob}</h4>
-        <h2>Designation</h2>
-        <h4>${records.currentUserData.designation}</h4>
+    <div class="info-wrapper">
+        <h3>Name:</h3>
+        <h3>${records.currentUserData.name}</h3>
+        <h3>Basic Info</h3>
+        <h3>${records.currentUserData.basicInfo}</h3>
+        <h3>Date of Birth:</h3>
+        <h3>${records.currentUserData.dob}</h3>
+        <h3>Standard:</h3>
+        <h3>${records.currentUserData.class}</h3>
+        <h3>Height:</h3>
+        <h3>${records.currentUserData.height}</h3>
+        <h3>Weight:</h3>
+        <h3>${records.currentUserData.weight}</h3>
+        <h3>Temperature:</h3>
+        <h3>${records.currentUserData.temperature}</h3>
+    </div>
     `;
 }
 function continueHandler() {
