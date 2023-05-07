@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+}
+
+.myButton {
+	background-color:#fafafa;
+	border-radius:6px;
+	border:2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#18ab29;
+	font-family:Arial;
+	font-size:18px;
+	padding: 8px 74px;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.myInput {
+    font-size: 16px;
+    border-width: 2px;
+    border-color: #cccccc;
+    color: #464646;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 6px;
+}
+.ta-left {
+    text-align: left;
+}
+.input-wrapper {
+    max-width: fit-content;
+    margin: 1px auto;
+}
+.contact-label {
+    font-size: 15px;
+    margin-bottom: 3px;
+}

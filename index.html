@@ -5,17 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Attendance App</title>
+    <title>Prototype | MVP</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div id="loginPage">
-        <h1>Enter Username</h1>
-        <input type="text" name="username" id="username">
-        <button onclick="continueHandler()" type="button">
+        <h2>Parent's login</h2>
+        <div class="input-wrapper">
+        <div class="contact-label ta-left">Registered Contact Number:</div>
+        <input type="tel" class="myInput" name="username" id="username">
+        </div>
+        <div>
+        <button class="myButton" onclick="continueHandler()" type="button">
             Continue
         </button>
+        </div>
     </div>
     <div id="userInfo" style="display: none;">
         <h1 style="text-align: center;">AMN Contructions</h1>
