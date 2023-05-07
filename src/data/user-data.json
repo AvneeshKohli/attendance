@@ -1,7 +1,11 @@
 {
     "0123456789": {
-        "name": "Aman Kalsi",
-        "dob": "26 Dec 1996",
-        "designation": "Owner"
+        "name": "Avneesh Kohli",
+        "dob": "16 Sept 1995",
+        "basicInfo": "Male, 27Y",
+        "class": "X D",
+        "height": "167cm",
+        "weight": "58kg",
+        "temperature": "98.2"
     }
 }
